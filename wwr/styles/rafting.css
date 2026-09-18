@@ -2,7 +2,7 @@
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e0c46a;
+    --accent2-color: #e9c46a;
     --heading-font: Roboto, Arial, Sans-serif;
     --body-font: Arial, Helvetica, Sans-serif;
 }
@@ -64,7 +64,7 @@ h1 {
     color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     width: 96%;
     bottom: 16px;
@@ -79,7 +79,7 @@ article {
 
 h2 {
     text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
     padding: 10px;
 }
