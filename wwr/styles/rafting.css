@@ -64,7 +64,7 @@ h1 {
     color: white;
 }
 
-.hero article {
+article {
     position: absolute;
     width: 96%;
     bottom: 16px;
