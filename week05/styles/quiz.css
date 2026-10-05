@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    width: 550px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: beige;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: aliceblue;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 150px;
+    justify-self: center
+}
+
+button:hover {
+    background-color: darkorange;
+}
