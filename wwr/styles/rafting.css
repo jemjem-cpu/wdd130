@@ -275,3 +275,163 @@ button[type="submit"] {
 .team h2 {
     background: none;
 }
+
+.home header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(244, 162, 97, 0.85);
+}
+
+.hero-cta {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-cta h1 {
+    position: static;
+}
+
+.hero-cta a {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 12px 28px;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    border: 2px solid var(--accent1-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 16px;
+}
+
+.offerings-grid figure {
+    margin: 0;
+    background-color: #f4f4f4;
+    border: 1px solid var(--accent1-color);
+}
+
+.offerings-grid img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.offerings-grid figcaption {
+    padding: 12px;
+}
+
+.offerings-grid h3 {
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+.offerings-grid figcaption p {
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter button[type="submit"] {
+    align-self: center;
+    padding: 8px 24px;
+}
+
+.page-title {
+    position: static;
+    opacity: 1;
+    background: none;
+    color: var(--primary-color);
+    padding: 16px 16px 0;
+}
+
+.trip-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 16px;
+}
+
+.trip {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    border: 1px solid var(--accent1-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trip:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(38, 70, 83, 0.35);
+}
+
+.trip img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip div {
+    padding: 12px;
+}
+
+.trip h2 {
+    text-align: left;
+    background: none;
+    padding: 0 0 8px;
+}
+
+.trip p {
+    margin: 0 0 8px;
+    padding: 0;
+}
+
+.trip-table table {
+    width: calc(100% - 32px);
+    margin: 16px;
+    border-collapse: collapse;
+}
+
+.trip-table caption {
+    padding-bottom: 8px;
+    font-style: italic;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 8px;
+    border: 1px solid var(--accent1-color);
+    text-align: left;
+}
+
+.trip-table thead th {
+    background-color: var(--accent2-color);
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.trip-cta {
+    text-align: center;
+}
+
+.trip-cta a {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    border: 2px solid var(--accent1-color);
+    font-weight: bold;
+    text-decoration: none;
+}
